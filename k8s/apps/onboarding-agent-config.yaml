@@ -32,3 +32,5 @@ data:
     keycloak.clientId: admin
     keycloak.clientSecret: edc-v-admin-secret
     identityhub.url: http://identityhub.edc-v.svc.cluster.local:7081/api/identity
+    issuerservice.url: http://issuerservice.edc-v.svc.cluster.local:10013/api/admin
+    issuer.id: aXNzdWVy # base64 encoded "issuer"
